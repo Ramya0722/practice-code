@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input field validation</title>
+    <script src="forms.js"></script>
+</head>
+<body>
+    <h1>Simple input field validation using the 'input' event</h1>
+    <p>Please the requried details</p>
+<form id="form">
+    <label for ="fname">First Name</label>
+    <input id="fname" type="text" name="name" maxlength="32">
+    <label for ="lname">Last Name</label>
+    <input id="lname" type="text" name="name" maxlength="32">
+    <label for ="password">Password</label>
+    <input id="password" type="password" name="name" >
+    <meter id="passwordstrength"></meter>
+    <label for ="cpassword">Confirmed Password</label>
+    <input id="cpassword" type="password" name="name">
+
+    <button id ="submit">Submit</button>
+</form>
+</body>
+</html>
