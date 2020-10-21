@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A-Z services/Appointment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+    body{
+    background-color: lightblue;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+  }
+</style>
+  </head>
+  <body>
+    <header>
+      <h1 id = "head">A-Z services</h1>
+    </header>
+    <nav>
+      <div class="main">
+        <ul id="homepage">
+         <li><a href='example0.html'>Home</a></li>
+         <li><a href='About.html'>About Us</a></li>
+         <li><a href= 'service.html'>Services</a></li>
+         <li><a href= 'Appointment.html'>Appointment</a></li>
+         <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+    <h2 id="title3">Service Appointment</h2>
+
+      <ol class="servicelist">
+        <ul>Enter information related to vehicle and service</ul>
+        <ul>Enter personal information</ul>
+        <ul>click desired services</ul>
+      </ol>
+
+    <p id ="Appointmentext">You will immediately receive a confirmation of receipt
+      of your request. With in next 24hours, we will contact you personally.</p>
+    </section>
+    <form>
+            <input type="text" class="input" placeholder="First Name">
+            <input type="text" class="input" placeholder="Last Name">
+            <input type ="text" class="input" placeholder="Date of Birth">
+            <input type="number" class="input" placeholder="contact">
+            <input type="email" class="input" placeholder="Email-id">
+            <input type ="text" class = "input" placeholder="Service-date">
+             <select id="cars" placeholder="select your car">
+              <option value= "volvo">Volvo</option>
+              <option value= "audi">Audi</option>
+              <option value="Benze">Benze</option>
+              <option value="Honda">Honda</option>
+              <option value="skoda">Skoda</option>
+              <option value="none">None</option>
+             </select>
+             Oil Change:<input type="checkbox" id="s1" name="s1" value="Oil change">
+
+            Brake services: <input type="checkbox" id="s2" name="s2" value="brake service">
+
+            Wheel care: <input type="checkbox" id="s3" name="s3" value="Wheel Care">
+
+             <input type="submit">
+    </form>
+  </body>
+</html>
